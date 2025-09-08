@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+.odd-elements {
+    background-color: rgb(234, 156, 174);
+    font-family: 'Verdana', 'DejaVu Sans', 'san-serif';
+}
+
+.cool-class {
+    font-size: 24px;
+}
+
+#second-element {
+    color: blue;
+    font-size: 36px;
+}
+
+#fourth-element {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
