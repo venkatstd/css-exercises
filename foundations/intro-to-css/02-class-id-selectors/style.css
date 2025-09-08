@@ -1,6 +1,6 @@
 .odd-elements {
     background-color: rgb(234, 156, 174);
-    font-family: 'Verdana', 'DejaVu Sans', 'san-serif';
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
 }
 
 .cool-class {
