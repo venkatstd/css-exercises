@@ -28,11 +28,15 @@ body {
   border-radius: 4px;
 }
 
-.container {
+body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
+
+/* body {
+  flex: 1;
+  display: flex;
+}*/
 
 .info {
   display: flex;
@@ -43,11 +47,20 @@ body {
   flex-shrink: 0;
 }
 
-.sidebar ul {
+ul {
   padding: 16px;
   margin: 0px;
+  list-style-type: none;
 }
   
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  margin-bottom: 10px;
+}
 
 .cards {
   /*flex: 5;*/
@@ -58,10 +71,8 @@ body {
 }
 
 .card {
-  display: flex;
   padding: 5px 15px;
   width: 300px;
-  height: auto;
 }
 
 .footer{
@@ -69,16 +80,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul a {
-  text-decoration: none;
-  color: white;
 }
 
 .header {
