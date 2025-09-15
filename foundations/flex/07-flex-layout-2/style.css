@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 45px;
   background: darkmagenta;
   color: white;
 }
@@ -26,4 +26,65 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.info {
+  display: flex;
+  flex: auto;
+}
+
+.sidebar {
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  padding: 16px;
+  margin: 0px;
+}
+  
+
+.cards {
+  /*flex: 5;*/
+  display: flex;
+  flex-wrap: wrap;
+  padding: 45px;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  padding: 5px 15px;
+  width: 300px;
+  height: auto;
+}
+
+.footer{
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
 }
